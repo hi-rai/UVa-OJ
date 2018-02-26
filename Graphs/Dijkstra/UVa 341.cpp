@@ -32,9 +32,11 @@ void DijkstraSSSP(int u) {
 }
 
 int main() {
-    int x, y, TC = 1;
     //freopen("in.txt", "r", stdin);
     //freopen("out.txt", "w", stdout);
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    int x, y, TC = 1;
     while (cin >> N, N) {
         AdjList.clear();
         AdjList.resize(N);
