@@ -28,7 +28,6 @@ void calc() {
         }
     }
     while (!q.empty()) q.pop();
-    while (!q.empty()) q.pop();
     return;
 }
 
