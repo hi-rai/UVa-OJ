@@ -13,8 +13,8 @@ int GCD(int x, int y) {
 }
 
 int main() {
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
+    //freopen("in.txt", "r", stdin);
+    //freopen("out.txt", "w", stdout);
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cin >> TC;
