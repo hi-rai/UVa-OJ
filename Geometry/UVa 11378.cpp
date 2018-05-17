@@ -38,7 +38,7 @@ int main() {
         ans = FLT_MAX;
         for (int i = 0; i < n; i++)
             scanf("%d %d", &p[i].x, &p[i].y);
-        sort(p, p +n );
+        sort(p, p + n);
         calc(0, n - 1);
         printf("%d\n", (int) ans);
     }
