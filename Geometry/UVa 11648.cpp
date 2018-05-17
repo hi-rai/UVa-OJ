@@ -1,4 +1,4 @@
-//Easy using direct formula (as below). 
+//Easy using direct formula (as uncommented code below). 
 //Else use divide and conquer technique by assuming some ratio m at which the dividing line divides the two non parallel lines
 //and then compare the area, to find the appropriate value (the commented solution)
 
