@@ -1,7 +1,7 @@
 //Easy question of finding the number of prime factors
 
 #include<bits/stdc++.h>
-#define SIEVE_SIZE 1005
+#define SIEVE_SIZE 1100
 using namespace std;
 
 bitset<SIEVE_SIZE> bs;
