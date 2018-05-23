@@ -79,7 +79,7 @@ int main() {
                     } else if (l1 <= h2 && h1 >= h2) {
                         if (ceil(l1) <= floor(h2)) unionSet(i, j);
                     }
-                    if (swapped) swap(i, j), check = 0;
+                    if (swapped) swap(i, j);
                 }
             }
         for (int i = 0; i < 300 && !check; i++)
